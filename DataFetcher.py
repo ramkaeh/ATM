@@ -1,9 +1,29 @@
-class DataFetcher()
+class DataFetcher:
+  def __init__(self)
 
   def getData(self)-> None:
-    self.
+    self.openConnection()
+    self.extractData()
+    self.parseData()
+    self.formatData()
+    self.closeConnection()
+    self.updateDB()
 
 
-  def parseData(self)
+  def parseData(self) -> None:
 
-  def formatData(self)
+  def formatData(self) -> None:
+
+  def updateDB(self) -> None:
+
+  @abstractmethod
+  def openConnection(self) -> None:
+    pass
+    
+  @abstractmethod 
+  def extractData(self) -> None:
+    pass
+    
+  @abstractmethod 
+  def closeConnection(self) -> None:
+    pass
