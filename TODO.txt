@@ -1,0 +1,4 @@
+skonczyc configloader
+wypełnic configfile
+przeniesc cała baze danych do oddzielnego pliku
+refaktoryzowac livedata i main
