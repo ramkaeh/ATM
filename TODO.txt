@@ -2,3 +2,4 @@ skonczyc configloader
 wypełnic configfile
 przeniesc cała baze danych do oddzielnego pliku
 refaktoryzowac livedata i main
+pobieranie danych powinno odbywac sie w nowo stworzonym wątku i asynchronicznie przesyłac dane?
